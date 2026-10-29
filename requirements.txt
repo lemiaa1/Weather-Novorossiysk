@@ -1,0 +1,19 @@
+# Основные версии из фотографии преподавателя.
+streamlit==1.33.0
+matplotlib==3.8.4
+lightautoml==0.4.2
+
+# Совместимое окружение для Python 3.11 (без обхода --no-deps).
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.12.0
+statsmodels==0.14.0
+scikit-learn==1.5.2
+lightgbm==4.6.0
+torch==2.2.2
+tabicl==0.1.4
+tabm==0.0.3
+# TabICL импортируется библиотекой; совместимая с torch 2.2 ветка Transformers.
+transformers==4.44.2
+# Таблицы Streamlit 1.33 и NumPy 1.26.
+pyarrow==16.1.0
